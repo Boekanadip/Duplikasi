@@ -1,0 +1,30 @@
+PRD.md
+.opencode/skills/customer-dedup/SKILL.md
+
+# Raw customer data (large + sensitive, PII inside)
+data/raw/crm_50000_customers_dirty_v3.csv
+data/raw/crm_50000_customers_standarized.csv
+data/raw/customers_standarized.csv
+data/raw/customers_standardized.csv
+
+# Splink pipeline outputs (regenerable from notebooks)
+data/raw/splink_*.csv
+data/raw/decided_*.csv
+data/raw/cluster_*.csv
+data/raw/ground_truth_*.csv
+data/raw/review_queue.csv
+data/raw/evaluation_*.csv
+
+# Generated plots
+data/raw/*.png
+
+# Editor / tooling
+.vscode/
+.agent/
+*.ipynb_checkpoints/
+
+# Backup / scratch notebooks
+notebooks/*_backup*.ipynb
+
+# Root-level duplicates
+02_standardization.ipynb
