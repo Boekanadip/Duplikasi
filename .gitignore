@@ -1,5 +1,5 @@
 PRD.md
-.opencode/skills/customer-dedup/SKILL.md
+.opencode
 
 # Raw customer data (large + sensitive, PII inside)
 data/raw/crm_50000_customers_dirty_v3.csv
@@ -22,6 +22,9 @@ data/raw/*.png
 .vscode/
 .agent/
 *.ipynb_checkpoints/
+.venv
+.venv fix
+.venv-1
 
 # Backup / scratch notebooks
 notebooks/*_backup*.ipynb
